@@ -1,3 +1,4 @@
+![CI](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml/badge.svg)
 # 1inch Mobile E2E — Login Playground (Appium + WebdriverIO)
 
 End-to-end mobile automation tests for the provided Login Playground sample app.
@@ -20,7 +21,7 @@ Login scenarios (Chrome on Android emulator):
 
 1. ✅ Valid username + valid password → success message  
 2. ✅ Invalid username + valid password → username invalid message  
-3. ✅ Valid username + valid password → password invalid message  
+3. ✅ Valid username + invalid password → password invalid message 
 4. ✅ Empty username + empty password → username invalid message  
 
 ---
@@ -103,5 +104,12 @@ adb devices
 
 ## CI
 
-GitHub Actions runs a basic workflow on each push and pull request
-to install dependencies and validate the project.
+This project uses **GitHub Actions** for Continuous Integration.
+
+On every push and pull request, the workflow automatically:
+
+- Installs dependencies
+- Runs basic project validation
+- Executes `npm test`
+
+You can also run the workflow manually from the **Actions** tab.
