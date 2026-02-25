@@ -1,4 +1,4 @@
-![CI](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml/badge.svg)](https://github.com/Puchao64/1inch-mobile-e2e/actions/workflows/ci.yml)
 # 1inch Mobile E2E — Login Playground (Appium + WebdriverIO)
 
 End-to-end mobile automation tests for the provided Login Playground sample app.
